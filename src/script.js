@@ -1,4 +1,4 @@
-const MoodContractAddress = "0x0a49f2eb6526deae3fc9491a5b6848af78d3eb09";
+const MoodContractAddress = "0x0a49f2EB6526Deae3Fc9491A5b6848af78d3eB09";
 const MoodContractABI = [
 	{
 		inputs: [],
@@ -49,5 +49,4 @@ async function getMood() {
 async function setMood() {
 	const mood = document.getElementById("mood").value;
 	await MoodContract.setMood(mood);
-	console.log(MoodContract);
 }
