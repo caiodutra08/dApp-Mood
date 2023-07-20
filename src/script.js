@@ -1,4 +1,4 @@
-const MoodContractAddress = "0x0a49f2EB6526Deae3Fc9491A5b6848af78d3eB09";
+const MoodContractAddress = "0x2cCCb4964d864aB74Bf23574e98E4328cd860838";
 const MoodContractABI = [
 	{
 		inputs: [],
